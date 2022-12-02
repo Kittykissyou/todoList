@@ -3,7 +3,7 @@ import {
   RiCheckboxCircleLine,
   RiCloseCircleLine,
 } from 'react-icons/ri';
-import styles from './BgdnTodo2.module.css';
+import styles from './Todo.module.css';
 const Todo = ({ todo, deleteTodo, toggleTodo }) => {
   return (
     <div
