@@ -19,9 +19,9 @@ const TodoForm = ({ addTodo }) => {
         <Button
           title="add todo"
           type="submit"
-          disabled={inputValue > 0 ? false : true}
+          disabled={inputValue.length > 0 ? false : true}
         >
-          submit
+          Подтвердить
         </Button>
       </form>
     </div>

@@ -3,11 +3,11 @@ import Button from '../UI/button';
 const TodoActions = ({ resetTodo, clearCompletedTodo, todosCount }) => {
   return (
     <>
-      <Button title="reset todos" onClick={resetTodo}>
+      <Button title="удалить все" onClick={resetTodo}>
         <RiRefreshLine />
       </Button>
       <Button
-        title="delete copleted"
+        title="удалить завершенные"
         onClick={clearCompletedTodo}
         disabled={!todosCount}
       >

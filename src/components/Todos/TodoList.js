@@ -1,7 +1,7 @@
 import Todo from './Todo';
 const TodoList = ({ todos, deleteTodo, toggleTodo }) => {
   return todos.length == 0 ? (
-    <h1>Todo List is empty</h1>
+    <h1>Список задач пуст</h1>
   ) : (
     todos.map((todo) => (
       <Todo

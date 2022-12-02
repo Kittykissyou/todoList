@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1> My Todo List</h1>
+      <h1> СПИСОК ЗАДАЧ</h1>
       <TodoForm addTodo={addTodoHandler} />
       {todos.length > 0 ? (
         <TodoActions
@@ -56,8 +56,8 @@ const App = () => {
       {completedTodoCount > 0 ? (
         <h1>
           {' '}
-          {`You have completed ${completedTodoCount} ${
-            completedTodoCount > 1 ? `todos` : `todo`
+          {`Вы завершили ${completedTodoCount} ${
+            completedTodoCount > 1 ? `задачи` : `задачу`
           }`}
         </h1>
       ) : (
